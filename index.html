@@ -841,29 +841,33 @@
 
       <h2>Ready for your space to sparkle?</h2>
 
-     <form action="https://formsubmit.co/mwright@mcqualitycleaning.com" method="POST">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_subject" value="New MC Quality Cleaning Quote Request">
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
 
   <input type="text" name="name" placeholder="Full Name" required>
+
   <input type="tel" name="phone" placeholder="Phone Number">
+
   <input type="email" name="email" placeholder="Email Address" required>
 
-        <select name="service" required>
-          <option value="">Select Service</option>
-          <option>Residential Cleaning</option>
-          <option>Deep Cleaning</option>
-          <option>Move-In / Move-Out</option>
-          <option>Office Cleaning</option>
-          <option>Post-Construction</option>
-          <option>Recurring Cleaning</option>
-        </select>
+  <select name="service" required>
+    <option value="">Select Service</option>
+    <option>Residential Cleaning</option>
+    <option>Deep Cleaning</option>
+    <option>Move-In / Move-Out</option>
+    <option>Office Cleaning</option>
+    <option>Post-Construction</option>
+    <option>Recurring Cleaning</option>
+  </select>
 
-        <textarea name="message" placeholder="Tell us about your space"></textarea>
+  <textarea name="message" placeholder="Tell us about your space"></textarea>
 
-        <button class="btn btn-pink" type="submit">Send Request</button>
-      </form>
+  <button class="btn btn-pink" type="submit">
+    Send Request
+  </button>
+
+</form>
     </div>
   </div>
 </section>
