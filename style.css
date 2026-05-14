@@ -405,6 +405,7 @@ form button {
   .nav-menu.active {
     display: flex;
   }
+  }
 
   .hero-content,
   .split,
