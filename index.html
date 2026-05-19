@@ -122,10 +122,12 @@
       border: 1px solid var(--gold);
       box-shadow: 0 10px 24px rgba(240,90,157,.35);
     }
+    
 
     .nav-cta::after {
       display: none;
     }
+    
 
     /* HERO */
 
@@ -584,6 +586,23 @@
     /* MOBILE */
 
     @media (max-width: 900px) {
+     
+  /* existing mobile styles */
+
+  .dropdown-menu {
+    position: static;
+    display: block;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 8px 0 0;
+  }
+
+  .dropdown-menu a {
+    padding-left: 18px;
+  }
+
+}
       .menu-toggle {
         display: block;
       }
