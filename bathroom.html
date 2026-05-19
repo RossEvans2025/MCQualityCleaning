@@ -123,6 +123,10 @@
       display: block;
       transition: transform .4s ease;
     }
+    .contain-image img {
+  object-fit: contain;
+  background: #000;
+}
 
     .gallery-box:hover img {
       transform: scale(1.05);
@@ -180,9 +184,9 @@
         <img src="assets/IMG_0412.jpeg">
       </div>
 
-      <div class="gallery-box">
-        <img src="assets/bathroom/bathroom_2.JPEG">
-      </div>
+     <div class="gallery-box contain-image">
+  <img src="assets/bathroom/bathroom_2.JPEG" alt="Bathroom Cleaning">
+</div>
 
       <div class="gallery-box">
         <img src="assets/bathroom/bathroom_3.JPEG">
